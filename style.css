@@ -63,6 +63,7 @@ button {
   color: black;
   z-index: 3;
   font-size: 2vw;
+  font-weight: 700;
 }
 
 .products__image{
