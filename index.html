@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DurgerKingBot</title>
+  <link rel="shortcut icon" src="<!--Тут вставляй иконку сайта-->">
+  <link rel="stylesheet" href="./normalize.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main class="main">
+    <div class="products">
+    </div>
+  </main> 
+  <template class="card-element">
+    <div class="products__product">
+      <div class="products__orange products__orange-active" style="display: none;">
+        <p class="products__ct" ></p>
+      </div>
+      <img class="products__image" src="./images/burgIcon.png">
+      <div class="products__tip-container">
+        <p class="product__description"></p>
+        <p class="products__point">&nbsp•&nbsp</p>
+        <p class="products__price"></p>
+      </div>
+        <button class="products__button" type="button">BUY</button>
+    </div>
+  </template>
+  <script src="./index.js" type="module"></script>
+</body>
+</html>
